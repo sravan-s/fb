@@ -1,7 +1,7 @@
 body{
     background-color: #dfe3ee;
 }
-header{
+.top-header{
     background-color:  	#3b5998;
     
 }
@@ -14,7 +14,19 @@ header{
     border-style: none;
     color: white;
 }
-a:hover, a:visited, a:link, a:active{
+header-text:hover, header-text:visited, header-text:link, header-text:active{
     text-decoration: none;
     
 }
+.fb-post{
+    background-color: white;
+    margin:8px;
+    padding: 10px;
+}
+.grey-text{
+    color: gray;
+}
+.post-content{
+    border-bottom: 1px solid;
+}
+

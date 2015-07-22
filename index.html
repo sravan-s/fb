@@ -2,28 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/extras.css" rel="stylesheet">
     </head>
     <body>
-        <header class="container-fluid">
+        <header class="container-fluid top-header">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-xs-11">
                     <div class="input-group header-item">
                         <a class="glyphicon glyphicon-home input-group-addon header-btn"></a>
                         <input type="text" class="form-control" placeholder="Search Facebok">
                         <span class="glyphicon glyphicon-search input-group-addon"></span>
                     </div>
                 </div>
-                <div class="col-md-2 col-md-offset-1 header-item hidden-phone">
-                    <a class="header-btn btn"><span class="glyphicon glyphicon-qrcode"></span> Name</a><a>|</a>
-                    <a class="header-btn btn">Home</a>
+                <div class="col-md-2 col-md-offset-1 header-item hidden-xs">
+                    <a class="header-btn btn header-text"><span class="glyphicon glyphicon-qrcode"></span> Name</a><a>|</a>
+                    <a class="header-btn btn header-text">Home</a>
                 </div>
-                <div class="col-md-3 header-item">
+                <div class="col-md-3 header-item hidden-xs">
                     <button class="btn header-btn glyphicon glyphicon-user"></button>
                     <button class="btn header-btn glyphicon glyphicon-comment"></button>
                     <button class="btn header-btn glyphicon glyphicon-globe"></button>
-                    <a>|</a>
+                    <a class="header-text">|</a>
                     <button class="btn header-btn glyphicon glyphicon-lock"></button>
                     <div class="glyphicon glyphicon-menu-down"></div>
                 </div>
@@ -34,7 +36,71 @@
                 list of links
             </section>
             <section class="col-md-6">
-                list of posts
+                <section class="fb-post">
+                    <header class="container-fluid post-content">
+                        <a class="btn"><span class="glyphicon glyphicon-list-alt"></span>Update</a>
+                        <a class="btn"><span class="glyphicon glyphicon-camera"></span>Create</a>
+                        <a class="btn"><span class="glyphicon glyphicon-apple"></span>Add</a>
+                    </header>
+                    <section>
+                        <textarea class="form-control" rows="3" placeholder="Type Something"></textarea>
+                    </section>
+                    <footer class="container-fluid header-item">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <button class="btn"><span class="glyphicon glyphicon-list-alt"></span></button>
+                                <button class="btn"><span class="glyphicon glyphicon-camera"></span></button>
+                                <button class="btn"><span class="glyphicon glyphicon-apple"></span></button>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-default">Public</button>
+                                <button type="button" class="btn btn-primary">Post</button>
+
+                            </div>
+                        </div>
+                    </footer>
+                </section>
+                <article class="fb-post">
+                    <header class="container-fluid">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <a class="links"><b>Name Last</b></a>
+                                    </div>
+                                    <div class="row">
+                                        <a class="grey-text">Time</a>
+                                        <a class="grey-text">Privacy</a>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                        <div class="col-md-1">
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                        </div>
+                    </header>
+                    <section class="post-content">
+                        <p>But would you kindly ponder this question: What would your good do if
+                            evil didn't exist, and what would the earth look like if all the shadows
+                            disappeared? After all, shadows are cast by things and people. Here is the
+                            shadow of my sword. But shadows also come from trees and living beings.
+                            Do you want to strip the earth of all trees and living things just because
+                            of your fantasy of enjoying naked light? You're stupid
+                        </p>
+                        <figure>
+                            <img class= "img-responsive" src="img/fig.png">
+                        </figure>
+                        <footer class="container"><a class="grey-text">X likes y comments z shares</a></footer>
+                    </section>
+                    <section class="container-fluid">
+                        <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                        <a class="grey-text"><span class="glyphicon glyphicon-share">Share</a>
+                        <a class="grey-text"><span class="glyphicon glyphicon-list">Comment</a>
+                    </section>
+                </article>
             </section>
             <section class="col-md-3">
                 advts.etc.
