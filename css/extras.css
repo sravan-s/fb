@@ -49,8 +49,13 @@ body{
     border-style: none;
 }
 .ticker{
-    height:300px;
+    height:150px;
     overflow-y:scroll;
     width:100%;
     background-color: aliceblue;
+}
+.ticker-field{
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
