@@ -37,7 +37,7 @@ body{
     color: black;
 }
 
-.right-section{
+.page-section{
     margin: 8px;
     background-color: cornsilk;
 }
@@ -47,4 +47,10 @@ body{
 }
 .list-group-item{
     border-style: none;
+}
+.ticker{
+    height:300px;
+    overflow-y:scroll;
+    width:100%;
+    background-color: aliceblue;
 }
