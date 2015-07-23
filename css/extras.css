@@ -14,7 +14,7 @@ body{
     border-style: none;
     color: white;
 }
-header-text:hover, header-text:visited, header-text:link, header-text:active{
+.header-text:hover, .header-text:visited, .header-text:link, .header-text:active{
     text-decoration: none;
     
 }
@@ -29,4 +29,22 @@ header-text:hover, header-text:visited, header-text:link, header-text:active{
 .post-content{
     border-bottom: 1px solid;
 }
+.side-text{
+    color: black;
+}
+.side-text:hover, .side-text:visited, .side-text:link, .side-text:active{
+    text-decoration: none;
+    color: black;
+}
 
+.right-section{
+    margin: 8px;
+    background-color: cornsilk;
+}
+.right-section-header{
+    margin: 10px;
+    color: grey;
+}
+.list-group-item{
+    border-style: none;
+}
