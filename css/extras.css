@@ -71,4 +71,7 @@ body{
     margin-left: 70%;
 }
 #mobile-menu{
+    float: left;
+    height: 100vh;
+    width:100vh;
 }
