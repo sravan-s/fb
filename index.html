@@ -12,7 +12,24 @@
     <body>
         <header class="container-fluid top-header">
             <div class="row">
-                <div class="col-md-6 col-xs-11">
+                <div class="col-xs-1 visible-xs dropdown">
+                    <button class="header-item btn" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <div id="mobile-menu" class="dropdown-menu">
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-item"><a href="#">Home</a></li>
+                            <li class="mobile-menu-item"><a href="#">Friends</a></li>
+                            <li class="mobile-menu-item"><a href="#">Chats</a></li>
+                            <li class="mobile-menu-item"><a href="#">Pages</a></li>
+                            <li class="mobile-menu-item"><a href="#">Groups</a></li>
+                            <li class="mobile-menu-item"><a href="#">Logout</a></li>
+                            <li><span class="glyphicon glyphicon-copyright-mark"></span>Sravan</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-8">
                     <div class="input-group header-item">
                         <a class="glyphicon glyphicon-home input-group-addon header-btn"></a>
                         <input type="text" class="form-control" placeholder="Search Facebok">
@@ -52,14 +69,7 @@
                         <li>Logout</li>
                     </ul>
                  </div>
-                <div class="col-xs-1 visible-xs dropdown">
-                    <button class="header-item btn" data-toggle="dropdown">
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    </button>
-                    <div id="mobile-menu" class="dropdown-menu">
-                        MEnu
-                    </div>
-                </div>
+                
             </div>
         </header>
         <section class="container-fluid">
